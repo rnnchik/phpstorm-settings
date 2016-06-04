@@ -27,6 +27,11 @@
     <option name="SELECTED_TEARLINE_COLOR" value="404e51" />
     <option name="SELECTION_BACKGROUND" value="214283" />
     <option name="TEARLINE_COLOR" value="404e51" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="" />
     <option name="WHITESPACES" value="343f43" />
   </colors>
   <attributes>
