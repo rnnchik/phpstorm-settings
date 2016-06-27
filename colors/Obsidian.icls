@@ -114,11 +114,6 @@
         <option name="FOREGROUND" value="f0f0f0" />
       </value>
     </option>
-    <option name="CSS.STRING">
-      <value>
-        <option name="FOREGROUND" value="9cb4aa" />
-      </value>
-    </option>
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="d0d2b5" />
@@ -391,7 +386,13 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="e0e2e4" />
+        <option name="FOREGROUND" value="f0f0f0" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="f0f0f0" />
+        <option name="BACKGROUND" value="293134" />
       </value>
     </option>
     <option name="HTML_COMMENT">
