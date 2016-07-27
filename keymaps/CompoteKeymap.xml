@@ -107,6 +107,7 @@
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="ctrl escape" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
