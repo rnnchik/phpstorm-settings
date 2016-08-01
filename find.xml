@@ -5,7 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value=".parameters.php" />
+    <option name="FILE_MASK" value="*.*" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -19,6 +19,7 @@
       <mask>*.js</mask>
       <mask>template.php</mask>
       <mask>.parameters.php</mask>
+      <mask>*.*</mask>
     </recentFileMasks>
   </component>
 </application>
