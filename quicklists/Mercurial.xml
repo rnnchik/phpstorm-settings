@@ -1,0 +1,5 @@
+<list display="Mercurial">
+  <action id="Vcs.ShowTabbedFileHistory" />
+  <action id="Vcs.ShowHistoryForBlock" />
+  <action id="Annotate" />
+</list>
