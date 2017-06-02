@@ -46,4 +46,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="pash" value="function pasha($DDD$) {&#10;&#9;$DDD$&#10;&#9;&#10;&#9;$AAA$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="DDD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AAA" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
