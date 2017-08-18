@@ -1,6 +1,13 @@
 <templateSet group="PHP">
-  <template name="t" value="$this-&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="t" value="$this-&gt;" description="$this" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return $CURSOR$;" description="return" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
