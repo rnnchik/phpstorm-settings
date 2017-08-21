@@ -21,7 +21,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t" value="this.$END$" description="this." toReformat="false" toShortenFQNames="true">
+  <template name="t" value="this.$PROP$" description="this." toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -116,6 +117,24 @@
     <variable name="method" expression="escapeString(String)" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pd" value="$EVENT$.preventDefault();" description="event.preventDefault();" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT" expression="jsSuggestVariableName()" defaultValue="&quot;event&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($COND$) &#10;{&#10;&#9;$END$&#10;}" description="if statement" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifel" value="if ($COND$) &#10;{&#10;&#9;$END$&#10;}&#10;else &#10;{&#10;    &#10;}" description="if-else statement" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
