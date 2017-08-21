@@ -1,0 +1,123 @@
+<templateSet group="Javascript Snippet Pack">
+  <template name="cl" value="console.log($END$);" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="clm" value="console.log(&quot;$METHOD$&quot;);" description="console.log(jsMethodName);" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="clc" value="console.log($CLIPBOARD$);" description="console.log(clipboard())" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="&quot;use strict&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="t" value="this.$END$" description="this." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="st" value="setTimeout(function() {&#10;&#9;$BODY$&#10;}, $TIMEOUT$);" description="setTimeout" toReformat="false" toShortenFQNames="true">
+    <variable name="TIMEOUT" expression="escapeString(String)" defaultValue="&quot;1000&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="escapeString(String)" defaultValue="&quot;// body&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="de" value="debugger;$END$" description="debugger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="function($ARGS$) {&#10;&#9;$BODY$&#10;}" description="anonymous function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fnd" value="function $METHOD_NAME$($ARGS$) &#10;{&#10;&#9;$BODY$&#10;}" description="function definition" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="escapeString(String)" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fno" value="$functionName$: function($arguments$) &#10;{&#10;    $body$&#10;}" description="function as a property of an object" toReformat="false" toShortenFQNames="true">
+    <variable name="functionName" expression="escapeString(String)" defaultValue="&quot;functionName&quot;" alwaysStopAt="true" />
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function() {&#10;&#9;$END$&#10;})();" description="immediately-invoked function expression" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="$DOCUMENT$.addEventListener(&quot;$EVENT$&quot;, function(event) {&#10;&#9;$BODY$&#10;});" description="addEventListener" toReformat="false" toShortenFQNames="true">
+    <variable name="DOCUMENT" expression="escapeString(String)" defaultValue="&quot;document&quot;" alwaysStopAt="true" />
+    <variable name="EVENT" expression="escapeString(String)" defaultValue="&quot;click&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return $END$;" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="$ARRAY$.forEach(function($ITEM$) {&#10;&#9;$END$&#10;});" description="forEach" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ac" value="$document$.appendChild($element$);" description="appendChild" toReformat="false" toShortenFQNames="true">
+    <variable name="document" expression="escapeString(String)" defaultValue="&quot;document&quot;" alwaysStopAt="true" />
+    <variable name="element" expression="jsSuggestVariableName()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="document.createElement(&quot;$tagName$&quot;);$END$" description="document.createElement" toReformat="false" toShortenFQNames="true">
+    <variable name="tagName" expression="escapeString(String)" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="$document$.removeChild($element$);" description="document.removeChild" toReformat="false" toShortenFQNames="true">
+    <variable name="document" expression="escapeString(String)" defaultValue="&quot;document&quot;" alwaysStopAt="true" />
+    <variable name="element" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdf" value="document.createDocumentFragment();" description="document.createDocumentFragment()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="$object$.prototype.$method$ = function($arguments$) &#10;{&#10;&#9;$body$&#10;}" description="prototype" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="escapeString(String)" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="escapeString(String)" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

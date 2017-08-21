@@ -7,12 +7,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log($LINE_NUMBER$);" description="console.log" toReformat="false" toShortenFQNames="true">
-    <variable name="LINE_NUMBER" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="re" value="$MODULE$ = require('$MODULE$');" description="requre(&quot;module&quot;)" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -25,30 +19,6 @@
     </context>
   </template>
   <template name="tt" value="var that = this;" description="var that = this;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="t" value="this." description="this" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="clc" value="console.log($CLIPBOARD$);" description="console.log(clipboard)" toReformat="false" toShortenFQNames="true">
-    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="clm" value="console.log(&quot;$METHOD$&quot;);" description="console.log(jsMethodName)" toReformat="false" toShortenFQNames="true">
-    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="pash" value="function pasha($DDD$) {&#10;&#9;$DDD$&#10;&#9;&#10;&#9;$AAA$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="DDD" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="AAA" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
