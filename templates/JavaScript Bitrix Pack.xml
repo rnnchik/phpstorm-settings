@@ -1,0 +1,60 @@
+<templateSet group="JavaScript Bitrix Pack">
+  <template name="bxc" value="BX.create(&quot;$tagName$&quot;, {&#10;&#9;props: {&#10;&#9;&#9;className: &quot;$className$&quot;&#10;&#9;}&#10;});" description="BX.create" toReformat="false" toShortenFQNames="true">
+    <variable name="tagName" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxb" value="BX.bind($node$, &quot;$event$&quot;, $handler$);" description="BX.bind" toReformat="false" toShortenFQNames="true">
+    <variable name="node" expression="completeSmart()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <variable name="event" expression="" defaultValue="&quot;click&quot;" alwaysStopAt="true" />
+    <variable name="handler" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxr" value="BX.ready(function() {&#10;&#9;$END$&#10;});" description="BX.ready" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxac" value="BX.addClass($node$, &quot;$className$&quot;);" description="BX.addClass" toReformat="false" toShortenFQNames="true">
+    <variable name="node" expression="completeSmart()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="&quot;className&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxrc" value="BX.removeClass($node$, &quot;$className$&quot;);" description="BX.removeClass" toReformat="false" toShortenFQNames="true">
+    <variable name="node" expression="completeSmart()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="&quot;className&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxt" value="BX.type.$method$" description="BX.type" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxu" value="BX.util.$method$" description="BX.util" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxta" value="BX.type.isArray($array$);" description="BX.type.isArray" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bxts" value="BX.type.isNotEmptyString($string$);" description="BX.type.isNotEmptyString" toReformat="false" toShortenFQNames="true">
+    <variable name="string" expression="completeSmart()" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
