@@ -57,4 +57,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="bxhc" value="BX.hasClass($node$, &quot;$className$&quot;);" description="BX.hasClass(DOMNode, className)" toReformat="false" toShortenFQNames="true">
+    <variable name="node" expression="completeSmart()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="&quot;className&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
