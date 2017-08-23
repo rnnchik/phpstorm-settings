@@ -1,5 +1,5 @@
 <templateSet group="JavaScript Bitrix Pack">
-  <template name="bxc" value="BX.create(&quot;$tagName$&quot;, {&#10;&#9;props: {&#10;&#9;&#9;className: &quot;$className$&quot;&#10;&#9;}&#10;});" description="BX.create" toReformat="false" toShortenFQNames="true">
+  <template name="bxc" value="BX.create(&quot;$tagName$&quot;, {&#10;&#9;props: {&#10;&#9;&#9;className: &quot;$className$&quot;&#10;&#9;}&#10;})" description="BX.create" toReformat="false" toShortenFQNames="true">
     <variable name="tagName" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
