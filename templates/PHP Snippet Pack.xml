@@ -1,0 +1,9 @@
+<templateSet group="PHP Snippet Pack">
+  <template name="fn" value="public function $method$($params$)&#10;{&#10;&#9;$END$&#10;}" description="public function" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
