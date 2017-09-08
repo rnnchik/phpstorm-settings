@@ -18,8 +18,11 @@
       <mask>.parameters.php</mask>
       <mask>*.*</mask>
       <mask>*.php</mask>
-      <mask>*.js</mask>
       <mask>*.svg</mask>
+      <mask>*.sv</mask>
+      <mask>*.s</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
