@@ -45,19 +45,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bxta" value="BX.type.isArray($array$);" description="BX.type.isArray" toReformat="false" toShortenFQNames="true">
+  <template name="bxta" value="BX.type.isArray($array$)" description="BX.type.isArray" toReformat="false" toShortenFQNames="true">
     <variable name="array" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bxts" value="BX.type.isNotEmptyString($string$);" description="BX.type.isNotEmptyString" toReformat="false" toShortenFQNames="true">
+  <template name="bxts" value="BX.type.isNotEmptyString($string$)" description="BX.type.isNotEmptyString" toReformat="false" toShortenFQNames="true">
     <variable name="string" expression="completeSmart()" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bxhc" value="BX.hasClass($node$, &quot;$className$&quot;);" description="BX.hasClass(DOMNode, className)" toReformat="false" toShortenFQNames="true">
+  <template name="bxhc" value="BX.hasClass($node$, &quot;$className$&quot;)" description="BX.hasClass(DOMNode, className)" toReformat="false" toShortenFQNames="true">
     <variable name="node" expression="completeSmart()" defaultValue="&quot;node&quot;" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="&quot;className&quot;" alwaysStopAt="true" />
     <context>
