@@ -12,15 +12,12 @@
         <entry key="XML" value="false" />
       </map>
     </option>
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
     <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
-  </component>
-  <component name="SqlEditorOptions">
-    <option name="concatenateStringsOnEnter" value="true" />
-    <option name="qualificationType" value="On collisions" />
   </component>
   <component name="XmlEditorOptions">
     <option name="tagTreeHighlightingEnabled" value="false" />
