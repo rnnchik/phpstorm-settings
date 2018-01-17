@@ -7,5 +7,16 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="mocha" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Projects/push-server/tests" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Projects/push-server/tests" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
