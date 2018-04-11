@@ -146,4 +146,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="gid" value="document.getElementById(&quot;$element$&quot;);" description="document.getElementById" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
