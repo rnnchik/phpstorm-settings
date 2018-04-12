@@ -1,0 +1,5 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="com.intellij.lang.javascript.template.postfix.JSNullStatementPostfixTemplate#.null" key=".null" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSNullStatementPostfixTemplate#.null" />
+  </component>
+</application>
