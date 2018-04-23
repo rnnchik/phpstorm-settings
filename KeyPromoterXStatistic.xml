@@ -1,14 +1,6 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
-      <Statistic Action="Back">
-        <Item>
-          <IdeaActionID>Back</IdeaActionID>
-          <ShortCut>'⌘[' or 'Button4 Click'</ShortCut>
-          <Description>Back</Description>
-          <Count>5</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Declaration">
         <Item>
           <IdeaActionID>GotoDeclaration</IdeaActionID>
@@ -23,6 +15,16 @@
           <ShortCut>'⌘T'</ShortCut>
           <Description>Update Project...</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+    </option>
+    <option name="suppressed">
+      <Statistic Action="Back">
+        <Item>
+          <IdeaActionID>Back</IdeaActionID>
+          <ShortCut>'⌘[' or 'Button4 Click'</ShortCut>
+          <Description>Back</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
     </option>
