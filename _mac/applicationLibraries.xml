@@ -1,5 +1,11 @@
 <application>
   <component name="libraryTable">
+    <library name="Bundled Protobuf Distribution">
+      <CLASSES />
+      <SOURCES>
+        <root url="jar://$APPLICATION_PLUGINS_DIR$/protobuf-jetbrains-plugin/lib/protobuf-java-3.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="chrome-DefinitelyTyped" type="javaScript">
       <CLASSES>
         <root url="file://$USER_HOME$/Library/Caches/WebIde90/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_chrome_chrome-app.d.ts" />
