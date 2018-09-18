@@ -153,6 +153,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run">
+        <Item>
+          <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
+          <ShortCut>'⌘4'</ShortCut>
+          <Description>Run</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'bitrix24-cli.php'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -198,6 +206,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⇧F5'</ShortCut>
           <Description>Stop 'scratch_36.php'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop...">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⇧F5'</ShortCut>
+          <Description>Stop...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
