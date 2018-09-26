@@ -14,7 +14,7 @@
           <IdeaActionID>XDebugger.CopyValue</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy Value</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'bitrix24-cli.php'">
@@ -62,7 +62,7 @@
           <IdeaActionID>DatabaseView.CopyAction</IdeaActionID>
           <ShortCut>'⌘D'</ShortCut>
           <Description>Duplicate</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -134,7 +134,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'⌘I'</ShortCut>
           <Description>Properties</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Replace in Path...">
@@ -191,6 +191,14 @@
           <ShortCut>'⌃⌘A'</ShortCut>
           <Description>Show All Affected Files</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Source Editor">
+        <Item>
+          <IdeaActionID>Jdbc.OpenEditor.DDL</IdeaActionID>
+          <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Source Editor</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ajax.php'">
