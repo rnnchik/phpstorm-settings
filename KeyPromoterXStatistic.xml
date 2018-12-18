@@ -337,6 +337,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'alice.talk#1'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'alice.talk#1'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'bitrix24-cli.php'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -462,7 +470,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>565</Count>
+          <Count>567</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
