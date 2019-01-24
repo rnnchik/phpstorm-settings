@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="RECENT_FILES_LIMIT" value="100" />
   </component>
 </application>
