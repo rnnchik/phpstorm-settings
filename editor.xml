@@ -3,4 +3,11 @@
     <option name="FONT_SIZE" value="18" />
     <option name="FONT_FAMILY" value="Consolas" />
   </component>
+  <component name="EditorSettings">
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="tagTreeHighlightingEnabled" value="false" />
+  </component>
 </application>
