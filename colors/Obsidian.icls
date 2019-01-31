@@ -1,14 +1,8 @@
 <scheme name="Obsidian" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-01-11T09:41:44</property>
+    <property name="modified">2019-01-31T08:54:16</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="18" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
     <option name="CARET_COLOR" value="c1cbd2" />
