@@ -1,6 +1,6 @@
 <scheme name="Obsidian" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2019-01-31T08:54:16</property>
+    <property name="modified">2019-01-31T09:59:18</property>
   </metaInfo>
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
@@ -57,7 +57,6 @@
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="e0e2e4" />
-        <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
