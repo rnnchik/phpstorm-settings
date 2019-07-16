@@ -28,7 +28,6 @@
     <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="XmlEditorOptions">
-    <option name="showCssInlineColorPreview" value="true" />
     <option name="tagTreeHighlightingEnabled" value="false" />
   </component>
 </application>
