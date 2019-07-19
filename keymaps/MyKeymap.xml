@@ -13,4 +13,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ScrollFromSource">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
 </keymap>
