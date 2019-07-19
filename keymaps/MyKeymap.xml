@@ -3,17 +3,66 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="ParameterInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ProfilerJumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="QuickList.Debugging">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="QuickList.Mercurial">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup" />
+  <action id="SearchEverywhere.NavigateToPrevGroup" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="Table-scrollUpChangeSelection" />
+  <action id="Tree-scrollUpChangeSelection" />
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
 </keymap>
