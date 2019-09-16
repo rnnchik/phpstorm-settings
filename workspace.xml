@@ -1,0 +1,18 @@
+<application>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JavaScript.js.chain.hints" />
+        <option value="JavaScript.js.type.hints" />
+      </set>
+    </option>
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <settingsMapElement>
+      <JavaScript.js.type.hints>
+        <Settings>
+          <option name="showForInferredParameters" value="false" />
+        </Settings>
+      </JavaScript.js.type.hints>
+    </settingsMapElement>
+  </component>
+</application>
