@@ -5,6 +5,7 @@
         <added pattern="func(eventObject,eventName,eventHandler)" />
         <added pattern="setTimeout(handler,timeout,arguments)" />
         <added pattern="BX.SidePanel.Manager.open(url,options)" />
+        <added pattern="Type.isPlainObject(value)" />
       </blacklist>
     </blacklists>
     <option id="js.only.show.names.for.tagged" value="false" />
