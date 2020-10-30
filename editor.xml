@@ -1,4 +1,7 @@
 <application>
+  <component name="DefaultFont">
+    <option name="LINE_SPACING" value="1.22" />
+  </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
       <set>
