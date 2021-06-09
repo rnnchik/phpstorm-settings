@@ -1,0 +1,20 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="JavaScript">
+        <added pattern="func(eventObject,eventName,eventHandler)" />
+        <added pattern="setTimeout(handler,timeout,arguments)" />
+        <added pattern="BX.SidePanel.Manager.open(url,options)" />
+        <added pattern="Type.isPlainObject(value)" />
+      </blacklist>
+    </blacklists>
+    <option id="js.only.show.names.for.tagged" value="false" />
+    <option id="js.only.show.names.for.pipes" value="false" />
+    <disabledLanguages>
+      <language id="TypeScript" />
+      <language id="JavaScript" />
+      <language id="PHP" />
+      <language id="SQL" />
+    </disabledLanguages>
+  </component>
+</application>
