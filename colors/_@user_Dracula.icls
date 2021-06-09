@@ -4,7 +4,7 @@
     <property name="created">2020-10-30T02:19:11</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2020.2.2.0.0</property>
-    <property name="modified">2021-06-09T11:37:33</property>
+    <property name="modified">2021-06-09T11:38:44</property>
     <property name="originalScheme">Dracula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -491,7 +491,7 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
-        <option name="BACKGROUND" value="35d44" />
+        <option name="BACKGROUND" value="33e5d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
