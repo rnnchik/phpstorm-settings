@@ -6,6 +6,7 @@
       <mapping pattern="rrr" type="AUTO_DETECTED" />
       <mapping ext="ng" type="HTML" />
       <mapping pattern=".hgtags" type="PLAIN_TEXT" />
+      <mapping ext="sketch" type="PLAIN_TEXT" />
       <mapping ext="full" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
       <mapping pattern="tsconfig.app.json" type="tsconfig" />
